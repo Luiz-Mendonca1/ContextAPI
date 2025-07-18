@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Alunos } from './components/Alunos'
 
 import UserProvinder from './context/user'
+import { Footer } from './components/footer'
 
 function App() {
   const [nome, setNome] = useState("Carlso Edaurdo")
@@ -15,6 +16,7 @@ function App() {
 
         <Alunos/>
 
+        <Footer/>
       </div>
     </UserProvinder>
   )
